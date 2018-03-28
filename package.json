@@ -1,0 +1,28 @@
+{
+  "name": "create-wreact-app",
+  "version": "1.0.5",
+  "description": "Boilerplate for React application development",
+  "author": "trence320@163.com",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "boilerplate"
+  ],
+  "bin": {
+    "create-wreact-app": "./lib/index.js"
+  },
+  "scripts": {
+    "build": "node scripts/build",
+    "pub": "node scripts/pub",
+    "test": "node scripts/test"
+  },
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "commander": "^2.15.1",
+    "fs-extra": "^5.0.0"
+  },
+  "devDependencies": {
+    "rimraf": "^2.6.2",
+    "shelljs": "^0.8.1"
+  }
+}
