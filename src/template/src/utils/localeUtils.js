@@ -44,6 +44,8 @@ export function getUserLocale() {
     getQueryValue('language') ||
     getCookie('locale') ||
     getCookie('lang') ||
+    window.localStorage && window.localStorage.getItem('locale') ||
+    window.localStorage && window.localStorage.getItem('lang') ||
     (navigator ? navigator.language || navigator.browserLanguage || navigator.userLanguage || navigator.systemLanguage || (navigator.languages && navigator.languages[0]) : defaultLocale)
   );
 }

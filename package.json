@@ -1,6 +1,6 @@
 {
   "name": "create-wreact-app",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Boilerplate for React application development",
   "author": "trence320@163.com",
   "license": "MIT",
@@ -8,6 +8,10 @@
     "react",
     "boilerplate"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/terence55/create-wreact-app"
+  },
   "bin": {
     "create-wreact-app": "./lib/index.js"
   },
